@@ -12,7 +12,6 @@ struct FruitRowView: View {
     // MARK: - Propeties
     
     var fruit: Fruit
-    h
     // MARK: - Body
     
     var body: some View {

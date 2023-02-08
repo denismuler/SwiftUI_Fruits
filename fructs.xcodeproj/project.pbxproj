@@ -17,6 +17,10 @@
 		CA75F0BB2965B33000D98208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA75F0BA2965B33000D98208 /* ContentView.swift */; };
 		CA75F0BD2965B33200D98208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA75F0BC2965B33200D98208 /* Assets.xcassets */; };
 		CA75F0C02965B33200D98208 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA75F0BF2965B33200D98208 /* Preview Assets.xcassets */; };
+		CAAE3DDF299435C6002D345F /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE3DDE299435C6002D345F /* FruitDetailView.swift */; };
+		CAAE3DE129943A24002D345F /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE3DE029943A24002D345F /* FruitHeaderView.swift */; };
+		CAAE3DE329943D90002D345F /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE3DE229943D90002D345F /* SourceLinkView.swift */; };
+		CAAE3DE529943F22002D345F /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE3DE429943F22002D345F /* FruitNutrientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		CA75F0BA2965B33000D98208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA75F0BC2965B33200D98208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA75F0BF2965B33200D98208 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAAE3DDE299435C6002D345F /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		CAAE3DE029943A24002D345F /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		CAAE3DE229943D90002D345F /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		CAAE3DE429943F22002D345F /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 				CA75F0B82965B33000D98208 /* FructsApp.swift */,
 				CA75F0BA2965B33000D98208 /* ContentView.swift */,
 				CA2D5FBD2966244500409096 /* OnboardingView.swift */,
+				CAAE3DDE299435C6002D345F /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -60,6 +69,9 @@
 				CA2D5FB929661D6300409096 /* FruitCardView.swift */,
 				CA2D5FBB2966212900409096 /* StartButtonView.swift */,
 				CA2D5FC52966ED8600409096 /* FruitRowView.swift */,
+				CAAE3DE029943A24002D345F /* FruitHeaderView.swift */,
+				CAAE3DE229943D90002D345F /* SourceLinkView.swift */,
+				CAAE3DE429943F22002D345F /* FruitNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,10 +111,10 @@
 		CA75F0B72965B33000D98208 /* fructs */ = {
 			isa = PBXGroup;
 			children = (
+				CA2D5FB729661D2500409096 /* App */,
+				CA2D5FB829661D3C00409096 /* View */,
 				CA2D5FC22966D22500409096 /* Data */,
 				CA2D5FBF2966D13B00409096 /* Model */,
-				CA2D5FB829661D3C00409096 /* View */,
-				CA2D5FB729661D2500409096 /* App */,
 				CA75F0BC2965B33200D98208 /* Assets.xcassets */,
 				CA75F0BE2965B33200D98208 /* Preview Content */,
 			);
@@ -188,10 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2D5FC42966D23900409096 /* FruitData.swift in Sources */,
+				CAAE3DE329943D90002D345F /* SourceLinkView.swift in Sources */,
 				CA2D5FBA29661D6300409096 /* FruitCardView.swift in Sources */,
 				CA2D5FBC2966212900409096 /* StartButtonView.swift in Sources */,
+				CAAE3DE529943F22002D345F /* FruitNutrientsView.swift in Sources */,
 				CA75F0BB2965B33000D98208 /* ContentView.swift in Sources */,
+				CAAE3DDF299435C6002D345F /* FruitDetailView.swift in Sources */,
 				CA2D5FBE2966244500409096 /* OnboardingView.swift in Sources */,
+				CAAE3DE129943A24002D345F /* FruitHeaderView.swift in Sources */,
 				CA2D5FC62966ED8600409096 /* FruitRowView.swift in Sources */,
 				CA2D5FC12966D15200409096 /* FruitModel.swift in Sources */,
 				CA75F0B92965B33000D98208 /* FructsApp.swift in Sources */,
